@@ -13,7 +13,7 @@ namespace WorkerServiceJenkins
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                _logger.LogInformation("Worker TATATATAdadasdasT at: {time}", DateTimeOffset.Now);
+                _logger.LogInformation("Worker XUXUUUUUUUU at: {time}", DateTimeOffset.Now);
                 await Task.Delay(1000, stoppingToken);
             }
         }
